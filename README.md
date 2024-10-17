@@ -1,8 +1,7 @@
 # Containers
 ## Table of Contents
-1. [Container registry](#container-registry)  
-2. [Container runtime](#container-runtime)
-3. [Conatiner resgistry](#conatiner-resgistry)
+- [Container registry](#container-registry) 
+- [Conatiner resgistry](#conatiner-resgistry)
 
 
 ### Container registry

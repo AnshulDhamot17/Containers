@@ -1,6 +1,7 @@
 # Containers
 ## Table of Contents
-[Getting Started](#getting-started)
+[Container registry](#container-registry)
+
 
 ### Container registry
 

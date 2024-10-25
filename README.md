@@ -46,6 +46,30 @@ A container registry is like a storage space where container images are kept. Th
 
 * Later, when you want to use that image (on another computer, or in a cloud), you can pull it from the registry and run it.
 
+Think of it like an app store for containers: you upload images (like apps) and others can download them when needed. Popular container registries include Docker Hub, Google Container Registry (GCR), and Amazon Elastic Container Registry (ECR).
+
+## 3. Container Image Formats
+
+Just like there are different formats for storing files (PDF for documents, JPG for photos), container image formats are the way container blueprints are packaged. These formats describe how the contents of a container (files, code, and everything an app needs) are organized and stored. The container image format ensures that these blueprints can be shared, moved, or run easily on any system that supports containers. The image format doesn’t change how the app works but helps systems understand how to run the app inside the container.
+
+**Example:** Imagine if you had a cooking recipe book that came in a different format (print, PDF, or online). The format is different, but the instructions remain the same, so you can still cook the meal. Similarly, a container image format doesn’t change the app, but it organizes how the information is stored and used.
+The most common container image format is OCI (Open Container Initiative), which ensures compatibility between different systems.
+
+## 4. Image Building
+
+Image building is the process of creating the container image, which is the blueprint or template of an app. It’s like following a recipe to bake a cake. You take all the ingredients (the app’s files, code, and necessary software) and pack them together in a way that makes them ready to run anywhere.
+Once the image is built, it can be stored in a registry, so others can use it without needing to worry about how to set up or install the app. Building an image ensures that the app always runs in the same way, no matter where it’s used.
+
+**Example:** Imagine you're baking a cake. You gather all the ingredients (flour, sugar, eggs), mix them according to the recipe, and bake it. Once the cake is baked, it’s ready for anyone to enjoy. Similarly, when you build a container image, you're preparing everything needed to run the app.
+Tools like Docker are commonly used to build images.
+
+## 5. Image Running
+
+
+
+
+
+
 
 
 

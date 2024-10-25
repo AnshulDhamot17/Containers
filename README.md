@@ -69,6 +69,8 @@ Image running is when you take a container image (the blueprint) and actually st
 The running container is isolated, meaning it doesn’t interfere with other apps or containers, even if they’re running on the same computer.
 
 **Example:** Imagine you have a cake stored in your fridge (which is like the container image), and you decide to take it out, cut a slice, and eat it. When you "run" a container, you’re starting the app, just like enjoying the cake after you’ve stored it.
+
+
    
 
 

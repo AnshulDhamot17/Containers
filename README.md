@@ -43,7 +43,7 @@ A **container runtime** is the software responsible for running containers. In s
 
 2. **High-level container runtimes (also called "container management tools"):** These runtimes handle more than just starting a container. They manage the entire container lifecycle, including pulling container images, managing storage, networking, and sometimes even coordinating and organizing multiple containers to work together.
 
-* **Example:** containerd, CRI-O
+* **Example:** containerd, CRI-O (Container Runtime Interface - Open)
   
 * **How it works:** Imagine a car, but this time you not only have an engine (low-level runtime) but also a dashboard that helps you control the car, manage fuel, speed, and even check the tire pressure. High-level runtimes work on top of low-level ones to make it easier to manage containers.
 

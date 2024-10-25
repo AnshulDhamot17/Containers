@@ -95,7 +95,7 @@ Tools like Docker are commonly used to build images.
 **Image running** is when you take a container image (the blueprint) and actually start it up so it can do its job. When the image runs, it becomes an active container (a working app).
 The running container is isolated, meaning it doesn’t interfere with other apps or containers, even if they’re running on the same computer.
 
-**Example:** Imagine you have a cake stored in your fridge (which is like the container image), and you decide to take it out, cut a slice, and eat it. When you "run" a container, you’re starting the app, just like enjoying the cake after you’ve stored it.
+**Example:** Imagine you have a cake stored in your fridge (which is like the container image), and you decide to take it out, cut a slice, and eat it. When you run a container, you’re starting the app, just like enjoying the cake after you’ve stored it.
 
 ## Summary
 

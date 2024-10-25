@@ -1,13 +1,16 @@
 # Understanding Container Technologies
 
-## Table Of Contents
+## Table of Contents
 
-- [Container](#container)
-- [Container Runtime](#1_container_runtime)
-- [Container Registry](#container_registry)
-- [Container Image Formats](#container_image_formats)
-- [Image Building](#image_building)
-- [Image Running](#image_running)
+1. [Container](#container)
+2. [Container Runtime](#container-runtime)
+    - [Low-Level Container Runtimes](#low-level-container-runtimes)
+    - [High-Level Container Runtimes](#high-level-container-runtimes)
+3. [Container Registry](#container-registry)
+4. [Container Image Formats](#container-image-formats)
+5. [Image Building](#image-building)
+6. [Image Running](#image-running)
+7. [Summary](#summary)
   
 ## Container
 

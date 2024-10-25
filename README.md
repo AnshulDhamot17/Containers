@@ -13,7 +13,7 @@
 
 <img src="./images/Container.png" alt="Description of Image" width="400" height="300"/>
 
-A container is a lightweight package that holds everything an application needs to run. It includes the app's code, all the tools and libraries the app needs to work, and settings, ensuring the app runs the same way on any system. Containers help developers easily share and deploy applications without worrying about compatibility issues.
+A **container** is a lightweight package that holds everything an application needs to run. It includes the app's code, all the tools and libraries the app needs to work, and settings, ensuring the app runs the same way on any system. Containers help developers easily share and deploy applications without worrying about compatibility issues.
 
 **Example**: Imagine you’re cooking a meal. You pack all the ingredients, the recipe, and the cooking tools into one box. Now, no matter where you go your kitchen, a friend’s house, or even a different country you can make the exact same meal because you have everything you need in that box.
 In the same way, a container holds everything an app needs, so it will work the same no matter where you run it on your computer, a server, or in the cloud.
@@ -22,7 +22,7 @@ In the same way, a container holds everything an app needs, so it will work the 
 
 <img src="./images/cr.png" alt="Description of Image" width="400" height="300"/>
 
-A container runtime is the software responsible for running containers. In simple terms, it's like an engine that makes sure containers can start, stop, and manage themselves on your system.
+A **container runtime** is the software responsible for running containers. In simple terms, it's like an engine that makes sure containers can start, stop, and manage themselves on your system.
 
 **How does it work?**  
 
@@ -50,7 +50,7 @@ A container runtime is the software responsible for running containers. In simpl
 
 <img src="./images/registry.png" alt="Description of Image" width="400" height="300"/>
 
-A container registry is like a storage space where container images are kept. These images are ready-to-use packages that contain everything needed to run a piece of software, like code, libraries, and settings.
+A **container registry** is like a storage space where container images are kept. These images are ready-to-use packages that contain everything needed to run a piece of software, like code, libraries, and settings.
 
 **How it works:** 
 
@@ -64,14 +64,14 @@ Think of it like an app store for containers: you upload images (like apps) and 
 
 ## 3. Container Image Formats
 
-Just like there are different formats for storing files (PDF for documents, JPG for photos), container image formats are the way container blueprints are packaged. These formats describe how the contents of a container (files, code, and everything an app needs) are organized and stored. The container image format ensures that these blueprints can be shared, moved, or run easily on any system that supports containers. The image format doesn’t change how the app works but helps systems understand how to run the app inside the container.
+Just like there are different formats for storing files (PDF for documents, JPG for photos), **container image formats** are the way container blueprints are packaged. These formats describe how the contents of a container (files, code, and everything an app needs) are organized and stored. The container image format ensures that these blueprints can be shared, moved, or run easily on any system that supports containers. The image format doesn’t change how the app works but helps systems understand how to run the app inside the container.
 
 **Example:** Imagine if you had a cooking recipe book that came in a different format (print, PDF, or online). The format is different, but the instructions remain the same, so you can still cook the meal. Similarly, a container image format doesn’t change the app, but it organizes how the information is stored and used.
 The most common container image format is OCI (Open Container Initiative), which ensures compatibility between different systems.
 
 ## 4. Image Building
 
-Image building is the process of creating the container image, which is the blueprint or template of an app. It’s like following a recipe to bake a cake. You take all the ingredients (the app’s files, code, and necessary software) and pack them together in a way that makes them ready to run anywhere.
+**Image building** is the process of creating the container image, which is the blueprint or template of an app. It’s like following a recipe to bake a cake. You take all the ingredients (the app’s files, code, and necessary software) and pack them together in a way that makes them ready to run anywhere.
 Once the image is built, it can be stored in a registry, so others can use it without needing to worry about how to set up or install the app. Building an image ensures that the app always runs in the same way, no matter where it’s used.
 
 **Example:** Imagine you're baking a cake. You gather all the ingredients (flour, sugar, eggs), mix them according to the recipe, and bake it. Once the cake is baked, it’s ready for anyone to enjoy. Similarly, when you build a container image, you're preparing everything needed to run the app.
@@ -91,7 +91,7 @@ Tools like Docker are commonly used to build images.
 
 ## 5. Image Running
 
-Image running is when you take a container image (the blueprint) and actually start it up so it can do its job. When the image runs, it becomes an active container (a working app).
+**Image running** is when you take a container image (the blueprint) and actually start it up so it can do its job. When the image runs, it becomes an active container (a working app).
 The running container is isolated, meaning it doesn’t interfere with other apps or containers, even if they’re running on the same computer.
 
 **Example:** Imagine you have a cake stored in your fridge (which is like the container image), and you decide to take it out, cut a slice, and eat it. When you "run" a container, you’re starting the app, just like enjoying the cake after you’ve stored it.

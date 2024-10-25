@@ -3,11 +3,11 @@
 ## Table of Contents
 
 1. [Container](#container)
-2. [Container Runtime](#1-container-runtime)
-3. [Container Registry](#2-container-registry)
-4. [Container Image Formats](#3-container-image-formats)
-5. [Image Building](#4-image-building)
-6. [Image Running](#5-image-running)
+2. [Container Runtime](#container-runtime)
+3. [Container Registry](#container-registry)
+4. [Container Image Formats](#container-image-formats)
+5. [Image Building](#image-building)
+6. [Image Running](#image-running)
 7. [Summary](#summary)
   
 ## Container
@@ -19,7 +19,7 @@ A **container** is a lightweight package that holds everything an application ne
 **Example**: Imagine you’re cooking a meal. You pack all the ingredients, the recipe, and the cooking tools into one box. Now, no matter where you go your kitchen, a friend’s house, or even a different country you can make the exact same meal because you have everything you need in that box.
 In the same way, a container holds everything an app needs, so it will work the same no matter where you run it on your computer, a server, or in the cloud.
 
-## 1. Container Runtime
+## Container Runtime
 
 <img src="./images/cr.png" alt="Description of Image" width="400" height="300"/>
 
@@ -47,7 +47,7 @@ A **container runtime** is the software responsible for running containers. In s
   
 * **How it works:** Imagine a car, but this time you not only have an engine (low-level runtime) but also a dashboard that helps you control the car, manage fuel, speed, and even check the tire pressure. High-level runtimes work on top of low-level ones to make it easier to manage containers.
 
-## 2. Container Registry
+## Container Registry
 
 <img src="./images/registry.png" alt="Description of Image" width="400" height="300"/>
 
@@ -63,14 +63,14 @@ A **container registry** is like a storage space where container images are kept
 
 Think of it like an app store for containers: you upload images (like apps) and others can download them when needed. Popular container registries include Docker Hub, Google Container Registry (GCR), and Amazon Elastic Container Registry (ECR).
 
-## 3. Container Image Formats
+## Container Image Formats
 
 Just like there are different formats for storing files (PDF for documents, JPG for photos), **container image formats** are the way container blueprints are packaged. These formats describe how the contents of a container (files, code, and everything an app needs) are organized and stored. The container image format ensures that these blueprints can be shared, moved, or run easily on any system that supports containers. The image format doesn’t change how the app works but helps systems understand how to run the app inside the container.
 
 **Example:** Imagine if you had a cooking recipe book that came in a different format (print, PDF, or online). The format is different, but the instructions remain the same, so you can still cook the meal. Similarly, a container image format doesn’t change the app, but it organizes how the information is stored and used.
 The most common container image format is OCI (Open Container Initiative), which ensures compatibility between different systems.
 
-## 4. Image Building
+## Image Building
 
 **Image building** is the process of creating the container image, which is the blueprint or template of an app. It’s like following a recipe to bake a cake. You take all the ingredients (the app’s files, code, and necessary software) and pack them together in a way that makes them ready to run anywhere.
 Once the image is built, it can be stored in a registry, so others can use it without needing to worry about how to set up or install the app. Building an image ensures that the app always runs in the same way, no matter where it’s used.
@@ -90,7 +90,7 @@ Tools like Docker are commonly used to build images.
 
 5. **Final Image:** The end result is a single image that has everything needed for the application to run. Think of it as a box with all the tools, libraries, and files packed together so it’s ready to go anywhere.
 
-## 5. Image Running
+## Image Running
 
 **Image running** is when you take a container image (the blueprint) and actually start it up so it can do its job. When the image runs, it becomes an active container (a working app).
 The running container is isolated, meaning it doesn’t interfere with other apps or containers, even if they’re running on the same computer.

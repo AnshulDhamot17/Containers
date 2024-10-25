@@ -9,7 +9,6 @@
 - [Image Building](#image_building)
 - [Image Running](#image_running)
   
-
 ## Container
 
 <img src="./images/Container.png" alt="Description of Image" width="400" height="300"/>
@@ -44,6 +43,7 @@ A container runtime is the software responsible for running containers. In simpl
 2. **High-level container runtimes (also called "container management tools"):** These runtimes handle more than just starting a container. They manage the entire container lifecycle, including pulling container images, managing storage, networking, and sometimes even coordinating and organizing multiple containers to work together.
 
 * **Example:** containerd, CRI-O
+  
 * **How it works:** Imagine a car, but this time you not only have an engine (low-level runtime) but also a dashboard that helps you control the car, manage fuel, speed, and even check the tire pressure. High-level runtimes work on top of low-level ones to make it easier to manage containers.
 
 ## 2. Container Registry
@@ -56,9 +56,9 @@ A container registry is like a storage space where container images are kept. Th
 
 * You build a container image (which is like creating a snapshot of your software environment).
   
-* Then, you push that image to a container registry, where it's saved.
+* Then, you push (upload) that image to a container registry, where it's saved.
 
-* Later, when you want to use that image (on another computer, or in a cloud), you can pull it from the registry and run it.
+* Later, when you want to use that image (on another computer, or in a cloud), you can pull (download) it from the registry and run it.
 
 Think of it like an app store for containers: you upload images (like apps) and others can download them when needed. Popular container registries include Docker Hub, Google Container Registry (GCR), and Amazon Elastic Container Registry (ECR).
 
@@ -98,7 +98,7 @@ The running container is isolated, meaning it doesn’t interfere with other app
 
 ## Summary
 
-The container ecosystem makes it easier and faster for developers to create and share applications. It uses special packages that include everything an app needs to run, ensuring that it works the same way no matter where it's used—on a developer's computer, a server, or in the cloud.
+The container ecosystem makes it easier and faster for developers to create and share applications. It uses special packages that include everything an app needs to run, ensuring that it works the same way no matter where it's used on a developer's computer, a server, or in the cloud.
 Because of this, developers can build reliable and efficient applications without as many problems. This approach helps them work more quickly, find and fix fewer bugs, and ultimately provide a better experience for users.
 
 

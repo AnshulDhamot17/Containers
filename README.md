@@ -5,9 +5,9 @@
 1. [Container](#container)
 2. [Container Runtime](#1-container-runtime)
 3. [Container Registry](#2-container-registry)
-4. [Container Image Formats](#container-image-formats)
-5. [Image Building](#image-building)
-6. [Image Running](#image-running)
+4. [Container Image Formats](#3-container-image-formats)
+5. [Image Building](#4-image-building)
+6. [Image Running](#5-image-running)
 7. [Summary](#summary)
   
 ## Container

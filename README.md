@@ -51,7 +51,7 @@ A **container runtime** is the software responsible for running containers. In s
 
 <img src="./images/registry.png" alt="Description of Image" width="400" height="300"/>
 
-A **container registry** is like a storage space where container images are kept. These images are ready-to-use packages that contain everything needed to run a piece of software, like code, libraries, and settings.
+A **container registry** is like a storage space where container images are kept. These images are ready to use packages that contain everything needed to run a piece of software, like code, libraries, and settings.
 
 **How it works:** 
 

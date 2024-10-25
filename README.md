@@ -17,3 +17,16 @@ A container runtime is the software responsible for running containers. In simpl
 
 * Imagine you have a box containing an application and all its necessary files. The container runtime is responsible for opening that box, executing the application, and managing resources such as CPU and memory for the application.
 
+* It also ensures the application is isolated from the rest of the system, so it can run without interfering with other applications on the machine.
+
+**There are two types of container runtimes:**
+
+1. **Low-level container runtimes (also called "OCI runtimes"):** These are the most basic container runtimes, responsible for directly interacting with the operating system to start and run containers. They don’t manage anything beyond launching containers.
+
+* **Example:** runc, crun, Youki
+
+* **How it works:** Think of it like an engine that powers a car. It doesn't care about the shape of the car or its design, it just runs it. These runtimes take instructions from higher-level tools, set up the container’s environment, and start the container.
+
+**OCI**- OCI stands for **Open Container Initiative**. It’s an organization that creates standards for how containers should work, making it easier for different software tools to work together. 
+
+

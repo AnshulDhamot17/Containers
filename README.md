@@ -11,7 +11,7 @@ In the same way, a container holds everything an app needs, so it will work the 
 
 ## 1. Container Runtime
 
-<img src="." alt="Description of Image" width="400" height="300"/>
+<img src="./images/cr.png" alt="Description of Image" width="400" height="300"/>
 
 A container runtime is the software responsible for running containers. In simple terms, it's like an engine that makes sure containers can start, stop, and manage themselves on your system.
 

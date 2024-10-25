@@ -21,7 +21,7 @@ A **container** is a lightweight package that holds everything an application ne
 **Example**: Imagine you’re cooking a meal. You pack all the ingredients, the recipe, and the cooking tools into one box. Now, no matter where you go your kitchen, a friend’s house, or even a different country you can make the exact same meal because you have everything you need in that box.
 In the same way, a container holds everything an app needs, so it will work the same no matter where you run it on your computer, a server, or in the cloud.
 
-## 1. Container Runtime
+## Container Runtime
 
 <img src="./images/cr.png" alt="Description of Image" width="400" height="300"/>
 

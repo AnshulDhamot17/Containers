@@ -7,7 +7,7 @@
 - [Container Registry](#container_registry)
 - [Container Image Formats](#container_image_formats)
 - [Image Building](#image_building)
-- [Image Running](#image_running)
+  
 
 ## Container
 

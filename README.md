@@ -4,8 +4,6 @@
 
 1. [Container](#container)
 2. [Container Runtime](#1-container-runtime)
-    - [Low-Level Container Runtimes](#1-low-level-container-runtimes-also-called-"OCI-runtimes")
-    - [High-Level Container Runtimes](#high-level-container-runtimes)
 3. [Container Registry](#container-registry)
 4. [Container Image Formats](#container-image-formats)
 5. [Image Building](#image-building)

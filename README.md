@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [Container](#container)
-2. [Container Runtime](#container-runtime)
+2. [Container Runtime](#1.-container-runtime)
     - [Low-Level Container Runtimes](#low-level-container-runtimes)
     - [High-Level Container Runtimes](#high-level-container-runtimes)
 3. [Container Registry](#container-registry)

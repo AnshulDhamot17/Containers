@@ -16,7 +16,7 @@
 
 A **container** is a lightweight package that holds everything an application needs to run. It includes the app's code, all the tools and libraries the app needs to work, and settings, ensuring the app runs the same way on any system. Containers help developers easily share and deploy applications without worrying about compatibility issues.
 
-**Example**: Imagine you’re cooking a meal. You pack all the ingredients, the recipe, and the cooking tools into one box. Now, no matter where you go your kitchen, a friend’s house, or even a different country you can make the exact same meal because you have everything you need in that box.
+**Example**: Imagine you are cooking a meal. You pack all the ingredients, the recipe, and the cooking tools into one box. Now, no matter where you go your kitchen, a friend’s house, or even a different country you can make the exact same meal because you have everything you need in that box.
 In the same way, a container holds everything an app needs, so it will work the same no matter where you run it on your computer, a server, or in the cloud.
 
 ## Container Runtime
@@ -75,7 +75,7 @@ The most common container image format is OCI (Open Container Initiative), which
 **Image building** is the process of creating the container image, which is the blueprint or template of an app. It’s like following a recipe to bake a cake. You take all the ingredients (the app’s files, code, and necessary software) and pack them together in a way that makes them ready to run anywhere.
 Once the image is built, it can be stored in a registry, so others can use it without needing to worry about how to set up or install the app. Building an image ensures that the app always runs in the same way, no matter where it’s used.
 
-**Example:** Imagine you're baking a cake. You gather all the ingredients (flour, sugar, eggs), mix them according to the recipe, and bake it. Once the cake is baked, it’s ready for anyone to enjoy. Similarly, when you build a container image, you're preparing everything needed to run the app.
+**Example:** Imagine you are baking a cake. You gather all the ingredients (flour, sugar, eggs), mix them according to the recipe, and bake it. Once the cake is baked, it’s ready for anyone to enjoy. Similarly, when you build a container image, you are preparing everything needed to run the app.
 Tools like Docker are commonly used to build images.
 
 **How it works:** 
@@ -102,6 +102,14 @@ The running container is isolated, meaning it doesn’t interfere with other app
 * In the same way, a container image is a ready-made package. It contains everything an application needs to run like the code, libraries, and settings. Just as the cake in the fridge doesn’t need further preparation, the container image has everything set up and stored, ready to be used anytime.
 
 **Running the Container as Eating a Slice of Cake:**
+
+* Now, say you’re hungry, and you want a slice of cake. You go to the fridge, take out the cake, cut a slice, and start enjoying it. This process of slicing and eating makes the cake active in a sense because now you are interacting with it by eating.
+
+* In technical terms, running a container is similar. When you run a container, you are taking that stored ready to go container image and making it active meaning you start it up so you can interact with the application within it.
+
+## Rootless Containers
+
+
 
 
 

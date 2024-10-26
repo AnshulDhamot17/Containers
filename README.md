@@ -77,18 +77,18 @@ The most common container image format is OCI (Open Container Initiative), which
 **Image building** is the process of creating the container image, which is the blueprint or template of an app. It’s like following a recipe to bake a cake. You take all the ingredients (the app’s files, code, and necessary software) and pack them together in a way that makes them ready to run anywhere.
 Once the image is built, it can be stored in a registry, so others can use it without needing to worry about how to set up or install the app. Building an image ensures that the app always runs in the same way, no matter where it’s used.
 
-**Example:** Imagine you are baking a cake. You gather all the ingredients (flour, sugar, eggs), mix them according to the recipe, and bake it. Once the cake is baked, it’s ready for anyone to enjoy. Similarly, when you build a container image, you are preparing everything needed to run the app.
+**Example:** Imagine you are baking a cake. You gather all the ingredients (flour, sugar, eggs) mix them according to the recipe and bake it. Once the cake is baked, it’s ready for anyone to enjoy. Similarly, when you build a container image you are preparing everything needed to run the app.
 Tools like Docker are commonly used to build images.
 
 **How it works:** 
 
-1. **Starting with a Base:** Think of a cake. Every cake starts with a basic layer, like a sponge. For a container image, this base is usually a simple operating system, like Linux. It’s like the cake’s foundation, ready to have more layers added.
+1. **Starting with a Base:** Think of a cake. Every cake starts with a basic layer, like a sponge. For a container image, this base is usually a simple operating system like Linux. It’s like the cake’s foundation ready to have more layers added.
    
-2. **Adding Layers of Instructions:** Now, to make the cake special, you add different ingredients in layers, like frosting or fruit. In a container image, each layer could be installing a program, adding files, or setting up settings for the app. Each of these steps adds something new to the base.
+2. **Adding Layers of Instructions:** Now, to make the cake special you add different ingredients in layers, like frosting or fruit. In a container image each layer could be installing a program, adding files, or setting up settings for the app. Each of these steps adds something new to the base.
    
-3. **Using a Recipe (Dockerfile):** Just like a cake needs a recipe to know what to add and how to build it, a container image needs a Dockerfile. This file is like the recipe, it tells the computer what ingredients to add and in what order, so the image is set up correctly.
+3. **Using a Recipe (Dockerfile):** Just like a cake needs a recipe to know what to add and how to build it, a container image needs a Dockerfile. This file is like the recipe, it tells the computer what ingredients to add and in what order so the image is set up correctly.
    
-4. **Building Blocks (Layers):** Each step of making the container image is like building up the cake, layer by layer. If you change one ingredient (like more sugar), you only need to fix that part, not the entire cake. In the same way, the system only updates the parts of the image that need changing, saving time.
+4. **Building Blocks (Layers):** Each step of making the container image is like building up the cake, layer by layer. If you change one ingredient (like more sugar) you only need to fix that part, not the entire cake. In the same way, the system only updates the parts of the image that need changing, saving time.
    
 5. **Final Image:** The final container image is like a finished cake that has everything it needs inside and is ready to be shared and enjoyed. Just like a cake is ready to be eaten anywhere, the image has everything packed inside to run an application on any computer.
 
@@ -101,7 +101,7 @@ The running container is isolated, meaning it doesn’t interfere with other app
 
 * Think of a cake you have already baked and stored in the fridge. This cake has all its ingredients perfectly put together, so it’s ready to enjoy whenever you want. You don’t have to go through the steps of baking or adding ingredients again because all the work to make the cake is complete.
 
-* In the same way, a container image is a ready-made package. It contains everything an application needs to run like the code, libraries, and settings. Just as the cake in the fridge doesn’t need further preparation, the container image has everything set up and stored, ready to be used anytime.
+* In the same way, a container image is a ready-made package. It contains everything an application needs to run like the code, libraries, and settings. Just as the cake in the fridge doesn’t need further preparation, the container image has everything set up and stored ready to be used anytime.
 
 **Running the Container as Eating a Slice of Cake:**
 
@@ -113,7 +113,7 @@ The running container is isolated, meaning it doesn’t interfere with other app
 
 **Rootless containers** are containers that you can run without needing to have special permissions (root access) on your computer. 
 
-1. When you run containers with root access, you are giving them the ability to make significant changes to the system. If something goes wrong (like a security issue), a hacker could take control of the whole system. Rootless containers reduce this risk by running as a regular user, which has limited permissions.
+1. When you run containers with root access, you are giving them the ability to make significant changes to the system. If something goes wrong (like a security issue), a hacker could take control of the whole system. Rootless containers reduce this risk by running as a regular user which has limited permissions.
 
 2. With rootless containers, you don’t need to ask an administrator for permission or access. Anyone can run these containers, making it easier for developers and users to experiment and develop applications without waiting for special access. 
 

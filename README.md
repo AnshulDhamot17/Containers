@@ -105,7 +105,7 @@ The running container is isolated, meaning it doesn’t interfere with other app
 
 **Running the Container as Eating a Slice of Cake:**
 
-* Now, say you’re hungry, and you want a slice of cake. You go to the fridge, take out the cake, cut a slice, and start enjoying it. This process of slicing and eating makes the cake active in a sense because now you are interacting with it by eating.
+* Now, say you are hungry and you want a slice of cake. You go to the fridge, take out the cake, cut a slice, and start enjoying it. This process of slicing and eating makes the cake active in a sense because now you are interacting with it by eating.
 
 * In technical terms, running a container is similar. When you run a container, you are taking that stored ready to go container image and making it active meaning you start it up so you can interact with the application within it.
 

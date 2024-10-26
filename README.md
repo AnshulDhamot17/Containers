@@ -8,7 +8,9 @@
 4. [Container Image Formats](#container-image-formats)
 5. [Image Building](#image-building)
 6. [Image Running](#image-running)
-7. [Summary](#summary)
+7. [Rootless Containers](#rootless-containers)
+8. [Daemonless Containers](#daemonless-containers) 
+9. [Summary](#summary)
   
 ## Container
 
@@ -109,7 +111,7 @@ The running container is isolated, meaning it doesn’t interfere with other app
 
 ## Rootless Containers
 
-Rootless containers are containers that you can run without needing to have special permissions (root access) on your computer. 
+**Rootless containers** are containers that you can run without needing to have special permissions (root access) on your computer. 
 
 1. When you run containers with root access, you are giving them the ability to make significant changes to the system. If something goes wrong (like a security issue), a hacker could take control of the whole system. Rootless containers reduce this risk by running as a regular user, which has limited permissions.
 
@@ -121,9 +123,9 @@ Rootless containers are containers that you can run without needing to have spec
 
 ## Daemonless Containers
 
-Daemonless containers are containers that you can run and control directly, without needing a background service, called a daemon, to manage them. 
+**Daemonless containers** are containers that you can run and control directly, without needing a background service, called a daemon, to manage them. 
 
-**Daemon -** A daemon is a background program that runs on your computer, helping with specific tasks that usually need to keep running continuously. When you start a container using Docker, a background service (the Docker daemon) runs constantly, handling container operations like starting, stopping, and monitoring the container’s state.
+**Daemon -** A **daemon** is a background program that runs on your computer, helping with specific tasks that usually need to keep running continuously. When you start a container using Docker, a background service (the Docker daemon) runs constantly, handling container operations like starting, stopping, and monitoring the container’s state.
 
 1. Instead of having a daemon always running to manage containers, daemonless containers work independently. When you start a container, it just runs directly without a separate program overseeing it. Once the container starts, it manages itself until it’s stopped.
 
@@ -136,12 +138,6 @@ Daemonless containers are containers that you can run and control directly, with
 1. **Docker:** When you run a container with Docker, the Docker daemon is responsible for managing containers. This daemon keeps running in the background, tracking the containers’ state and handling new commands.
 
 2. **Podman (Daemonless):** Podman doesn’t need a daemon. Each container command start, stop, etc. runs directly without any ongoing background process. You don’t have an assistant working in the background you are just giving direct commands, and each container handles itself.
-
-
-
-
-
-
 
 ## Summary
 

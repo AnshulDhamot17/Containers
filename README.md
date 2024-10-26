@@ -109,6 +109,21 @@ The running container is isolated, meaning it doesn’t interfere with other app
 
 ## Rootless Containers
 
+Rootless containers are containers that you can run without needing to have special permissions (root access) on your computer. 
+
+1. When you run containers with root access, you are giving them the ability to make significant changes to the system. If something goes wrong (like a security issue), a hacker could take control of the whole system. Rootless containers reduce this risk by running as a regular user, which has limited permissions.
+
+2. With rootless containers, you don’t need to ask an administrator for permission or access. Anyone can run these containers, making it easier for developers and users to experiment and develop applications without waiting for special access. 
+
+3. Rootless containers ensure that even if something goes wrong in one container, it doesn’t affect the host system or other containers. This isolation is crucial for safe application development and deployment.
+
+**Example :** A developer can run a rootless container on their local machine to test an application without needing administrative access. This is particularly useful in environments like shared servers or cloud instances where users have restricted permissions.
+
+## Daemonless Containers
+
+
+
+
 
 
 

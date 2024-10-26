@@ -123,7 +123,7 @@ The running container is isolated, meaning it doesn’t interfere with other app
 
 ## Daemonless Containers
 
-**Daemonless containers** are containers that you can run and control directly, without needing a background service, called a daemon, to manage them. 
+**Daemonless containers** are containers that you can run and control directly, without needing a background service, called a daemon to manage them. 
 
 **Daemon -** A **daemon** is a background program that runs on your computer, helping with specific tasks that usually need to keep running continuously. When you start a container using Docker, a background service (the Docker daemon) runs constantly, handling container operations like starting, stopping, and monitoring the container’s state.
 

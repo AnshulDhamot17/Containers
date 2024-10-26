@@ -121,7 +121,21 @@ Rootless containers are containers that you can run without needing to have spec
 
 ## Daemonless Containers
 
+Daemonless containers are containers that you can run and control directly, without needing a background service, called a daemon, to manage them. 
 
+**Daemon -** A daemon is a background program that runs on your computer, helping with specific tasks that usually need to keep running continuously. When you start a container using Docker, a background service (the Docker daemon) runs constantly, handling container operations like starting, stopping, and monitoring the container’s state.
+
+1. Instead of having a daemon always running to manage containers, daemonless containers work independently. When you start a container, it just runs directly without a separate program overseeing it. Once the container starts, it manages itself until it’s stopped.
+
+2. You control everything directly. Each command you give like start, stop, or inspect is processed immediately by the container runtime, and then it’s done. This means there’s no middleman that stays running in the background, consuming system resources.
+
+3. By removing the need for a daemon, daemonless containers save system resources. There’s no extra program using CPU or memory just to keep track of things, making it more efficient, especially for systems that don’t need to run multiple containers continuously.
+
+**Example:** Docker Vs Podman
+
+1. **Docker:** When you run a container with Docker, the Docker daemon is responsible for managing containers. This daemon keeps running in the background, tracking the containers’ state and handling new commands.
+
+2. **Podman (Daemonless):** Podman doesn’t need a daemon. Each container command start, stop, etc. runs directly without any ongoing background process. You don’t have an assistant working in the background you are just giving direct commands, and each container handles itself.
 
 
 
